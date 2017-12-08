@@ -49,4 +49,11 @@ $(document).ready(function() {
     document.getElementById("friendlybot").src=result[1];
   });
 
+  $("#wipe").click(function() {
+    $("#beepBoopOutput").text("");
+    $("#bot_left").text("");
+    $("#bot_right").text("");
+    document.getElementById("friendlybot").src="img/bot_n.png";
+  });
+
 });

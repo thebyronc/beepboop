@@ -13,6 +13,7 @@
         <h2>BEEP BOOP!</h2>
         <div class="col-md-4">
           <form id="formBeepBoop">
+            <h4>DATA IN:</h4>
             <div class="form-group">
               <label for="inputName">What is your name? </label>
               <input id="inputName" class="form-control" type="text">
@@ -21,15 +22,16 @@
               <label for="inputNumber">*Enter a number: </label>
               <input id="inputNumber" class="form-control" type="number" required>
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="submit" class="btn btn-teal">Submit</button>
+            <button type="reset" id="wipe" class="btn btn-default">Wipe Memory</button>
           </form>
         </div><!-- end col -->
         <div class="col-md-8">
 
           <div class="row borderleft">
             <div class="col-md-8">
-              <h4>Data Out:</h4>
-              <textarea id="beepBoopOutput" rows="10" cols="50">
+              <h4>DATA OUT:</h4>
+              <textarea id="beepBoopOutput" rows="12" cols="50" readonly>
               </textarea>
             </div>
             <div class="col-md-4">
