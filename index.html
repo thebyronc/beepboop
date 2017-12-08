@@ -10,22 +10,38 @@
   <body>
     <div class="container">
       <div class="row">
-        <h2>Beep Boop!</h2>
-        <div class="col-md-6">
-          <div id="beepBoopOutput">
+        <div class="col-md-4">
+          <table>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td colspan="2">1</td>
+            </tr>
+          </table>
 
-          </div>
         </div><!-- end col -->
-        <div class="col-md-6">
-          <form id="formBeepBoop">
-            <div class="form-group">
-              <label for="inputName">What is your name? </label>
-              <input id="inputName" class="form-control" type="text">
-              <label for="inputNumber">*Enter a number: </label>
-              <input id="inputNumber" class="form-control" type="number" required>
+        <div class="col-md-8">
+          <h2>Beep Boop!</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <form id="formBeepBoop">
+                <div class="form-group">
+                  <label for="inputName">What is your name? </label>
+                  <input id="inputName" class="form-control" type="text">
+                  <label for="inputNumber">*Enter a number: </label>
+                  <input id="inputNumber" class="form-control" type="number" required>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+          </div>
+            <div class="col-md-8">
+              <p id="beepBoopOutput">
+              </p>
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
+          </div>
+
         </div><!-- end col -->
       </div><!-- end row -->
     </div><!-- end container -->
