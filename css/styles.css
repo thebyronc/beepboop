@@ -2,10 +2,20 @@
   text-align: right;
 }
 #bottable {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
+    /*border: 1px solid #CCCCCC;*/
+}
+.botdata {
+  height: 40px;
+  /*border: 1px solid #CCCCCC;*/
 }
 #beepboop h2 {
   color: #03A5A5;
+  font-weight: bolder;
   border-bottom: 1px solid #03A5A5;
   text-align: right;
+}
+.borderleft {
+  border-left: 1px solid #CCCCCC;
+  min-height: 280px;
 }

@@ -10,38 +10,40 @@
   <body>
     <div class="container">
       <div class="row" id="beepboop">
-        <div class="col-md-3">
-          <table id="bottable">
-            <tr>
-              <td><p id="bot_left">test</p></td>
-              <td><p id="bot_right">test</p></td>
-            </tr>
-            <tr>
-              <td colspan="2"><img src="img/bot_n.png"></td>
-            </tr>
-          </table>
-
+        <h2>BEEP BOOP!</h2>
+        <div class="col-md-4">
+          <form id="formBeepBoop">
+            <div class="form-group">
+              <label for="inputName">What is your name? </label>
+              <input id="inputName" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="inputNumber">*Enter a number: </label>
+              <input id="inputNumber" class="form-control" type="number" required>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
         </div><!-- end col -->
-        <div class="col-md-9">
-          <h2>Beep Boop!</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <form id="formBeepBoop">
-                <div class="form-group">
-                  <label for="inputName">What is your name? </label>
-                  <input id="inputName" class="form-control" type="text">
-                  <label for="inputNumber">*Enter a number: </label>
-                  <input id="inputNumber" class="form-control" type="number" required>
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-              </form>
-          </div>
+        <div class="col-md-8">
+
+          <div class="row borderleft">
             <div class="col-md-8">
-              <p id="beepBoopOutput">
-              </p>
+              <h4>Data Out:</h4>
+              <textarea id="beepBoopOutput" rows="10" cols="50">
+              </textarea>
+            </div>
+            <div class="col-md-4">
+              <table id="bottable">
+                <tr>
+                  <td class="botdata"><p id="bot_left"></p></td>
+                  <td class="botdata"><p id="bot_right"></p></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><img src="img/bot_n.png" id="friendlybot"></td>
+                </tr>
+              </table>
             </div>
           </div>
-
         </div><!-- end col -->
       </div><!-- end row -->
     </div><!-- end container -->
