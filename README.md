@@ -1,90 +1,36 @@
-# Project Title
+# Beep Boop!
 
-One Paragraph of project description goes here
+Week 3 Friday project at Epicodus. Goal is to create a web application that takes a range of numbers and converts all 1's to "Boop!", turns all 0's to "Beep!", and all number divisible by 3 with "I'm sorry, Dave. I'm afraid I can't do that."
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Clone this repository and open the index.html
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Atom](https://atom.io/) - Text editor
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Byron Chang** - *Initial work*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## Project Specifications
+
+| Core Behavior | Input | Expected Output |
+| :---     |      :---:     |     :---:     |
+| It takes a number and counts to a range of numbers up to the number provided | "2" or "24" | "0, 1, 2" or "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ,20 , 21, 22, 23, 24"    |
+| Numbers that contain 1's are replaced with "Boop!" | "1" or "718" | "Boop!" |
+| Numbers that contain 0's are replaced with "Beep!" |  "0" or "200" | "Beep!" |
+| Numbers that contain 1' and 0's are replaced with "Beep!" |  "0" or "200" | "Beep!" |
+| Numbers divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that." | "3" or "396" | "I'm sorry, Dave. I'm afraid I can't do that." |
+| Numbers that contain 1's and/or 0's, and divisible by 3 are replaced with "I'm sorry, Dave. I'm afraid I can't do that." | "12" or "30" or "102" | "I'm sorry, Dave. I'm afraid I can't do that." |
+| A user should be able to enter a new number and see new results over and over again. | -  | - |
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
-## Table
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
