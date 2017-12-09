@@ -17,6 +17,12 @@ Clone this repository and open the index.html
 
 * **Byron Chang** - *Initial work*
 
+## GH-PAGES
+This project is available at the following locations:
+* [Beep Boop gh-pages](https://thebyronc.github.io/beepboop/)
+* [Web Portfolio](https://thebyronc.github.io/webportfolio/)
+
+
 
 ## Project Specifications
 

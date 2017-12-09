@@ -37,7 +37,7 @@ $(document).ready(function() {
 
   $("#formBeepBoop").submit(function(event) {
     event.preventDefault();
-    // document.getElementById("friendlybot").src="img/bot_n.png";
+
     var inputName = $("#inputName").val();
     var inputNumber = $("#inputNumber").val();
 
