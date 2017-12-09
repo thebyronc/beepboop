@@ -10,6 +10,8 @@
   font-weight: bolder;
   border-bottom: 1px solid #03A5A5;
   text-align: right;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 #beepboop .borderleft {
   border-left: 1px solid #CCCCCC;
