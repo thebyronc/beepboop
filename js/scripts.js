@@ -1,5 +1,5 @@
 var countNumbers = function(inputName, inputNumber) {
-  var results = ["", "", "", ""];
+  var results = [];
   var userName = "Dave";
   if (inputName != "") {
     var userName = inputName;
